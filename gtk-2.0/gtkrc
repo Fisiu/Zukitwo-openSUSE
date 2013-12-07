@@ -10,11 +10,11 @@
 # NOTE: Uncommenting means to delete the "#" at the beginning of a line. Commenting means to add a "#" at the beginning of a line. The "#" tells the theme wether to ignore the specified line or not.
 
 # These are the defined colors for the theme, you can change them in GNOME's appearance preferences.
-gtk_color_scheme = "bg_color:#d4d4d4\nselected_bg_color:#6699CC\nbase_color:#F7F7F7" # Background, base.
-gtk_color_scheme = "fg_color:#2c2c2c\nselected_fg_color:#f5f5f5\ntext_color:#2c2c2c" # Foreground, text.
-gtk_color_scheme = "tooltip_bg_color:#F5F5B5\ntooltip_fg_color:#000000" # Tooltips.
-gtk_color_scheme = "link_color:#08c" # Hyperlinks
-gtk_color_scheme = "bg_color_dark:#3f3f3f\ntext_color_dark:#FFF" # Dark colors
+gtk_color_scheme = "bg_color:#d5d1cf\nselected_bg_color:#83af77\nbase_color:#ffffff" # Background, base.
+gtk_color_scheme = "fg_color:#141312\nselected_fg_color:#ffffff\ntext_color:#141312" # Foreground, text.
+gtk_color_scheme = "tooltip_bg_color:#1c2122\ntooltip_fg_color:#141312" # Tooltips.
+gtk_color_scheme = "link_color:#006e28" # Hyperlinks
+gtk_color_scheme = "bg_color_dark:#242226\ntext_color_dark:#ffffff" # Dark colors
 
 ### EXTERNAL FILES ###
 include "widgets/panel.rc"	# This includes the file that handles the panels.
