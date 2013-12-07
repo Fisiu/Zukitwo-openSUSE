@@ -500,9 +500,9 @@ style "murrine-scrollbar" {
 	bg[PRELIGHT]	= shade (0.8, @bg_color)
 	
 	engine "murrine" {
-		roundness	= 8
-		border_shades	= {0.80, 0.80}
-		contrast	= 0.0
+		roundness	= 2
+		border_shades	= {0.70, 0.70}
+		contrast	= 0.5
 	}
 }
 
