@@ -359,7 +359,7 @@ style "murrine-progressbar" = "murrine-thin" {
 		trough_shades		= { 1.06, 1.16}
 		gradient_shades		= {0.95,0.95,1.1,1.1}
 		border_shades		= { 1.1, 1.1 }
-		roundness		= 20
+		roundness		= 2
 	}
 }
 
