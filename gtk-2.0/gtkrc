@@ -727,4 +727,3 @@ widget_class "*MozContainer*"		style "performance-fix" # Firefox (Not sure if th
 
 ### EXTERNAL FILES ###
 include "chromium.rc"	# Chromium styling
-include "thunar.rc"	# Thunar styling
