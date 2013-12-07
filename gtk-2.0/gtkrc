@@ -129,6 +129,7 @@ style "murrine-default" {
 	text[INSENSITIVE]	= darker (@bg_color)
 
 	### Murrine Settings ###
+	# Documentation: https://wiki.ubuntu.com/Artwork/Documentation/Murrine
 	
 	engine "murrine" {
 		animation		= FALSE
@@ -139,7 +140,7 @@ style "murrine-default" {
 		contrast		= 0.4 			# 0.8 for less contrast, more than 1.0 for more contrast on borders
 		default_button_color	= shade (1.12, @selected_bg_color)
 		focus_color		= @selected_bg_color
-		focusstyle		= 3
+		focusstyle		= 2                     # 0 = disable focus drawing, 1 = dots, 2 = small colored rectangle, 3 = colored rectangle that touches the borders.
 		glazestyle		= 1			# 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
 		gradient_shades		= {1.1,1.1,0.94,0.94}	# Sets the gradients on the widgets.
 		glowstyle		= 0			# 0,1,2,3,4
@@ -155,10 +156,10 @@ style "murrine-default" {
 		menustyle		= 0			# 0 = no vertical menu stripe, 1 = display vertical menu stripe
 		prelight_shade		= .95			# shade level for scrollbar's slider, comboboxstyle(1), and prelight state with gradient_colors		
 		reliefstyle		= 2			# 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
-		rgba			= FALSE			# FALSE = disabled, TRUE = enabled
+		rgba			= TRUE			# FALSE = disabled, TRUE = enabled
 		roundness		= 2			# 0 = squared, 1 = old default, more will increase roundness
-		scrollbarstyle		= 0			# 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
-		separatorstyle		= 1			# 0 = Hard seperators 1 = Smooth seperators
+		scrollbarstyle		= 2			# 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
+		separatorstyle		= 0			# 0 = Hard seperators 1 = Smooth seperators
 		sliderstyle		= 0			# 0 = nothing added, 1 = handles
 		stepperstyle		= 1			# 0 = standard, 1 = integrated stepper handles, 2 = unknown
 		progressbarstyle	= 1			# 0 = nothing, 1 = stripes, 2 = lines
