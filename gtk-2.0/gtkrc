@@ -15,6 +15,7 @@ gtk_color_scheme = "fg_color:#141312\nselected_fg_color:#ffffff\ntext_color:#141
 gtk_color_scheme = "tooltip_bg_color:#1c2122\ntooltip_fg_color:#141312" # Tooltips.
 gtk_color_scheme = "link_color:#006e28" # Hyperlinks
 gtk_color_scheme = "bg_color_dark:#242226\ntext_color_dark:#ffffff" # Dark colors
+gtk_color_scheme = "menu_item_bg_color:#e9e7e6" # Menu items
 
 ### EXTERNAL FILES ###
 include "widgets/panel.rc"	# This includes the file that handles the panels.
@@ -273,7 +274,7 @@ style "murrine-menu" {
 	xthickness = 0
 	ythickness = 0
 
-	bg[NORMAL] = @base_color
+        bg[NORMAL] = @menu_item_bg_color
 
 	engine "murrine" {
 		border_shades = { 1.2, 1.0 }
