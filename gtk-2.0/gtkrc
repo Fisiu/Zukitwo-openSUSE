@@ -302,18 +302,19 @@ style "murrine-menu-item" = "murrine-wider" {
 # 1. Get a specific height.
 # 2. The line should go to the edges (ie. no border at the left/right)
 style "murrine_separator_menu_item" {
-	bg[NORMAL] = @base_color # Remove for visible separators.
+	#bg[NORMAL] = @base_color # Remove for visible separators.
+	bg[NORMAL] = "#8B8A89"
 	xthickness = 1
 	ythickness = 0
 
 	GtkSeparatorMenuItem::horizontal-padding = 0
 	GtkWidget::wide-separators = 1
 	GtkWidget::separator-width = 1
-	GtkWidget::separator-height = 7
+	GtkWidget::separator-height = 5
 	
 	engine "murrine" {
 		contrast = 0.6 # Set the contrast to 0.6 for visible separators.
-		separatorstyle = 0
+		separatorstyle = 1 # 0 = solid line, 1 = smooth separator
 	}
 }
 
